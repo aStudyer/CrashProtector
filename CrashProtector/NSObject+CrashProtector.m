@@ -8,7 +8,7 @@
 #import "NSObject+CrashProtector.h"
 #import <objc/runtime.h>
 #import <dlfcn.h>
-#import "AppDelegate.h"
+#import <UIKit/UIKit.h>
 
 @interface ForwardingTarget : NSObject
 @end

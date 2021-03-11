@@ -35,7 +35,7 @@ static CrashProtectorExceptionHandler _exceptionHandler;
     
     _exceptionHandler = handler;
 }
-+ (void)handleException:(NSException *)exception {
++ (void)CrashProtector_handleException:(NSException *)exception {
     if (_exceptionHandler) {
         _exceptionHandler(exception);
     }

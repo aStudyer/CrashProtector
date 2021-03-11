@@ -20,4 +20,10 @@
         }
     }
 }
++ (void)handleException:(NSException *)exception {
+    #pragma clang diagnostic push
+    #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+    [self performSelector:NSSelectorFromString(@"CrashProtector_handleException:") withObject:exception];
+    #pragma clang diagnostic pop
+}
 @end
