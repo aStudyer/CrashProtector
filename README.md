@@ -11,7 +11,7 @@ CrashProtector是一个针对常见的崩溃的拦截防御框架，目前可以
 `pod "CrashProtector"`
 
 ## 使用
-1. 引入头文件
+1. 引入头文件<br/>
 `#import <CrashProtector/CrashProtector.h>`
 2. 激活
      1. 方式一（默认拦截所有错误类型）
