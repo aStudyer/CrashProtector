@@ -22,7 +22,7 @@ CrashProtector是一个针对常见的崩溃的拦截防御框架，目前可以
      }];
      ```
      2. 方式二（自定义需要拦截的类型）
-     ```
+     ```objc
      [CrashProtector activate:@[
          [NSObject class],
          [NSArray class],
